@@ -1,0 +1,316 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper
+{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#logo
+{
+    width:20%;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#header
+{
+    clear:both;
+    width: 100%;
+    background: #669ACC;
+    height:42px;
+    margin-top:60px;
+}
+
+#header ul
+{
+    list-style: none;
+}
+
+#header ul li a
+{
+    float:left;
+    padding: 0px 40px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color:#C7DDF5;
+    text-decoration: none;
+}
+
+#header ul li a:hover
+{
+    background: #336799;
+}
+
+#header ul li a.active
+{
+    background: #336799;
+}
+
+#slider
+{
+    clear: both;
+    float:left;
+    width:100%;
+}
+
+#slider img
+{
+    width:100%;
+    height: 300px;
+}
+
+#contentarea
+{
+    clear:both;
+    float: left;
+    width:100%;
+    margin-top: 20px;
+}
+
+#contentarea #leftside
+{
+    clear: both;
+    float: left;
+    width: 70%;
+}
+
+#contentarea #leftside .thumb
+{
+    float: left;
+    width: 45%;
+    min-height: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#contentarea #leftside .thumb h2
+{
+    width: 100%;
+    background: #C7DDF5;
+    color: #000;
+    text-align: center;
+}
+
+#contentarea #rightside
+{
+    float: right;
+    width: 26%;
+    padding-right: 20px;
+}
+
+#contentarea #rightside h2
+{
+     width: 100%;
+    background: #C7DDF5;
+    color: #000;
+    text-align: center;
+}
+
+#contentarea #rightside ul
+{
+    list-style: none;
+    width:100%;
+}
+
+#contentarea #rightside ul li
+{
+
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px dashed #C7DDF5;
+    background:#669ACC; 
+    
+}
+
+#contentarea #rightside ul li a
+{
+    text-decoration: none;
+    display: block;
+    color:#C7DDF5;
+    padding-left: 20px;
+    
+}
+#contentarea #rightside ul li a:hover
+{
+    background: #336799;
+}
+
+#footer
+{
+   clear: both;
+   float: left;
+    width:100%;
+   background: #669ACC;
+   color:#C7DDF5;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:720px) {
+#wrapper
+{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#logo
+{
+    width:100%;
+    padding-left: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+#header
+{
+    clear:both;
+    width: 100%;
+    background: #669ACC;
+    height:210px;
+    margin-top:60px;
+}
+
+#header ul
+{
+    list-style: none;
+}
+
+#header ul li a
+{
+    float:none;
+    display: block;
+    padding: 0px 40px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color:#C7DDF5;
+    text-decoration: none;
+}
+
+#header ul li a:hover
+{
+    background: #336799;
+}
+
+#header ul li a.active
+{
+    background: #336799;
+}
+
+#slider
+{
+    clear: both;
+    float:left;
+    width:100%;
+}
+
+#slider img
+{
+    width:100%;
+    height: 300px;
+}
+
+#contentarea
+{
+    clear:both;
+    float: left;
+    width:100%;
+    margin-top: 20px;
+}
+
+#contentarea #leftside
+{
+    clear: both;
+    float: none;
+    width: 90%;
+}
+
+#contentarea #leftside .thumb
+{
+    float: none;
+    width: 90%;
+    min-height: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#contentarea #leftside .thumb h2
+{
+    width: 100%;
+    background: #C7DDF5;
+    color: #000;
+    text-align: center;
+}
+
+#contentarea #rightside
+{
+    float: none;
+    width: 90%;
+    padding-right: 20px;
+}
+
+#contentarea #rightside h2
+{
+     width: 100%;
+    background: #C7DDF5;
+    color: #000;
+    text-align: center;
+}
+
+#contentarea #rightside ul
+{
+    list-style: none;
+    width:100%;
+}
+
+#contentarea #rightside ul li
+{
+
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px dashed #C7DDF5;
+    background:#669ACC; 
+    
+}
+
+#contentarea #rightside ul li a
+{
+    text-decoration: none;
+    display: block;
+    color:#C7DDF5;
+    padding-left: 20px;
+    
+}
+#contentarea #rightside ul li a:hover
+{
+    background: #336799;
+}
+
+#footer
+{
+   clear: both;
+   float: left;
+   margin-top: 20px;
+    width:100%;
+   background: #669ACC;
+   color:#C7DDF5;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+}
